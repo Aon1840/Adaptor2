@@ -36,6 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'Emulators',
+    'Buildings',
+    'Floors',
+    'Zones',
+    'Positions',
 ]
 
 MIDDLEWARE = [
@@ -74,14 +78,14 @@ WSGI_APPLICATION = 'Adaptor.wsgi.application'
 DATABASES = {
     'default': {
         # 'ENGINE': 'django.db.backends.mysql',
-        # 'NAME': 'DEV_Adaptor',
+        # 'NAME': 'DEV_Adaptors',
         # 'USER': 'root',
         # 'PASSWORD': 'Peungsook1840%',
         # 'HOST': '18.191.137.112',
         # 'PORT': '3306',
 
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'DEV_Adaptor',
+        'NAME': 'DEV_Adaptors',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': '127.0.0.1',
