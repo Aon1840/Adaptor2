@@ -73,11 +73,18 @@ WSGI_APPLICATION = 'Adaptor.wsgi.application'
 
 DATABASES = {
     'default': {
+        # 'ENGINE': 'django.db.backends.mysql',
+        # 'NAME': 'DEV_Adaptor',
+        # 'USER': 'root',
+        # 'PASSWORD': 'Peungsook1840%',
+        # 'HOST': '18.191.137.112',
+        # 'PORT': '3306',
+
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dev_adaptor',
+        'NAME': 'DEV_Adaptor',
         'USER': 'root',
-        'PASSWORD': 'Peungsook1840%',
-        'HOST': '18.191.87.97',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
     }
 }
