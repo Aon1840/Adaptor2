@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'Floors',
     'Zones',
     'Positions',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
